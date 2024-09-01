@@ -44,7 +44,7 @@ ul {
   padding: 0;
 }
 
-li {
+li.task-item {
   background-color: #eeeeee;
   margin-top: 8px;
   padding: 10px;
@@ -52,6 +52,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: red;
 }
 
 .remove-btn {
